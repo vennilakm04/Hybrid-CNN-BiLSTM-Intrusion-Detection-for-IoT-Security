@@ -61,3 +61,7 @@ The original CNN model from the reference study was improved by integrating a Bi
 ## Project Outcome
 
 This model demonstrates strong performance for multiclass intrusion detection in IoT environments and can be extended for real-time cybersecurity applications.
+
+## Novelty
+
+The baseline CNN-based intrusion detection model was enhanced by integrating a Bidirectional LSTM layer after convolutional feature extraction to capture sequential dependencies among traffic features. In addition, rare-class filtering and SMOTE balancing were applied to address dataset imbalance, improving multiclass classification performance and achieving higher detection accuracy for IoT attack traffic.
