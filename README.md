@@ -34,12 +34,13 @@ The aim is to improve intrusion detection accuracy in highly imbalanced IoT netw
 
 ## Performance
 
-* Test Accuracy: 98%
+* Test Accuracy: 97%
 * Weighted F1-score: 0.97
 
 ## Novelty
 
-The baseline CNN-based intrusion detection model was enhanced by integrating a Bidirectional LSTM layer after convolutional feature extraction to capture sequential dependencies among traffic features. In addition, rare-class filtering and SMOTE balancing were applied to address dataset imbalance, improving multiclass classification performance and achieving higher detection accuracy for IoT attack traffic.
+The baseline CNN intrusion detection model was enhanced by adding a Bidirectional LSTM layer for sequential feature learning, along with SMOTE balancing and rare-class filtering to improve performance on imbalanced IoT traffic classes.
+
 
 ## Output Generated
 
@@ -60,6 +61,6 @@ The baseline CNN-based intrusion detection model was enhanced by integrating a B
 
 ## Project Outcome
 
-This model demonstrates strong performance for multiclass intrusion detection in IoT environments and can be extended for real-time cybersecurity applications.
+The final hybrid CNN-BiLSTM model achieved 97% multiclass classification accuracy on the CICIoT2023 dataset, with strong weighted F1-score performance and improved detection across dominant intrusion categories.
 
 
